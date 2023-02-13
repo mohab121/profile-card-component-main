@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(185, 75%, 39%) !important;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Kumbh Sans';
+    background-image:  url(../images/bg-pattern-bottom.svg) ,url(../images/bg-pattern-top.svg) ;
+    background-position-x: 160% ,-80%;
+    background-position-y: -110% ,180%;
+    background-repeat: no-repeat;
+    
+}
+.containeer{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top{
+    height: 133px;
+    background-image: url("../images/bg-pattern-card.svg");
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.top img{
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.bottom{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    height: 217px;
+    background-color: white;
+    text-align: center;
+}
+
+h5{
+    padding-top: 25%;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: hsl(229, 23%, 23%);
+}
+
+.details span{color: hsl(227, 10%, 46%); font-weight: 400;}
+
+.activity{display: flex;}
+.activity div{width: 33.3%;}
+
+
+.activity span{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: .6rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
